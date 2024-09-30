@@ -1,0 +1,32 @@
+<section class=" py-20">
+
+    <div class="py-7">
+        <h2 class="Special-heading text-4xl md:text-7xl">ourprojects</h2>
+        <p class="text border-b-2 shadow-sm ">My goal is to show you a website that works well and is visually appealing
+        </p>
+    </div>
+    <div class="w-10/12 mx-auto">
+
+        <div class="grid grid-cols-1 md:grid-cols-2  gap-4 text-[var(--text-color)] ">
+            @for (item of allProject; track $index) {
+            <div class="card p-5 border bg-[var(--bg-secoond)] rounded-xl overflow-hidden">
+                <owl-carousel-o [options]="customOptions">
+                    <ng-template carouselSlide><img [src]="item.images[0]" alt=""></ng-template>
+                    <ng-template carouselSlide><img [src]="item.images[1]" alt=""></ng-template>
+                    <ng-template carouselSlide><img [src]="item.images[2]" alt=""></ng-template>
+                </owl-carousel-o>
+
+                <p class="py-2 font-bold">{{item.name}}</p>
+                <p class="mb-2">{{item.descripe.split(' ',15).join(' ')}}</p>
+                <div class="bg-[var(--bg-therd)] p-2 text-center ">
+                    <a class="font-bold text-black" href="{{item.link}}" target="_blank">live demo
+                        <i class="fa-solid fa-eye text-black"></i> </a>
+                </div>
+            </div>
+            }
+
+        </div>
+    </div>
+
+
+</section>

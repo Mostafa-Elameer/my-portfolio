@@ -1,0 +1,113 @@
+{
+    "certificates": [
+        "./assets/images/certificates/2.jpg",
+        "./assets/images/certificates/3.jpg",
+        "./assets/images/certificates/7.jpg",
+        "./assets/images/certificates/1.jpg",
+        "./assets/images/certificates/5.png",
+        "./assets/images/certificates/6.png"
+    ],
+    "allProjects": [
+        {
+            "name": "E-Commerce",
+            "descripe": "a dynamic E-Commerce platform built with Angular, designed for seamless, responsive experiences on any device.",
+            "link": "https://e-commerce-2dql.vercel.app/login",
+            "images": [
+                "./assets/images/ecommerce1.png",
+                "./assets/images/ecommerce2.png",
+                "./assets/images/ecommerce3.png",
+                "./assets/images/ecommerce4.png"
+            ]
+        },
+        {
+            "name": "MOVIES",
+            "descripe": "A single page application to display a group of movies and series in a smooth way, each of which contains a group of details such as the picture, name and actors.",
+            "link": "https://movies-mauve-rho.vercel.app/home",
+            "images": [
+                "./assets/images/movies/movies1.png",
+                "./assets/images/movies/movies2.png",
+                "./assets/images/movies/movies3.png",
+                "./assets/images/movies/movies4.png"
+            ]
+        },
+        {
+            "name": "Yummy-food",
+            "descripe": "A website that displays meals for each country. The user can search for the meal by its name or by the name of the country, and he can also get the method of preparation",
+            "link": "https://mostafa-elameer.github.io/Yummy-food/",
+            "images": [
+                "./assets/images/food/yummyfood1.png",
+                "./assets/images/food/yummyfood2.png",
+                "./assets/images/food/yummyfood3.png",
+                "./assets/images/food/yummyfoof4.png"
+            ]
+        },
+        {
+            "name": "copy facebook",
+            "descripe": "A trial version of the Facebook website using HTML and CSS - the goal of the site is to demonstrate the power of the two languages ​​in building a visually attractive website without using any frameworks",
+            "link": "https://mostafa-elameer.github.io/Copy-Facebook/",
+            "images": [
+                "./assets/images/copyFacebook/1.png",
+                "./assets/images/copyFacebook/2.png",
+                "./assets/images/copyFacebook/3.png"
+            ]
+        },
+        {
+            "name": "X_O Game",
+            "descripe": "A pure OOP project using JS, a simulation of the game XO. Players can be identified before the match starts, and victory can be achieved in three ways",
+            "link": "https://x-o-game-delta.vercel.app/",
+            "images": [
+                "./assets/images/xogame/1.png",
+                "./assets/images/xogame/2.png",
+                "./assets/images/xogame/3.png"
+            ]
+        },
+        {
+            "name": "Question App",
+            "descripe": "Question App, the first page determines the type and number of questions and their difficulty level - the program displays a set of questions about the chosen topic and then displays the number of …",
+            "link": "https://mostafa-elameer.github.io/Question-App/",
+            "images": [
+                "./assets/images/ques/1.png",
+                "./assets/images/ques/2.png",
+                "./assets/images/ques/3.png"
+            ]
+        },
+        {
+            "name": "medliab",
+            "descripe": "project that I created using Framework Bootstrap. I focused on using the ready-made templates it provides to create a simple, visually attractive website.",
+            "link": "https://mostafa-elameer.github.io/Medlap/",
+            "images": [
+                "./assets/images/medliab/1.png",
+                "./assets/images/medliab/2.png",
+                "./assets/images/medliab/3.png"
+            ]
+        },
+        {
+            "name": "mealify",
+            "descripe": "A simple website that simulates a cooking show, its goal is to showcase the power of HTML and CSS only in building an attractive website, without using any frameworks.",
+            "link": "https://mostafa-elameer.github.io/Mealify/",
+            "images": [
+                "./assets/images/mealify/1.png",
+                "./assets/images/mealify/2.png",
+                "./assets/images/mealify/3.png"
+            ]
+        },
+        {
+            "name": "Accessory store",
+            "descripe": " static site for girls' accessories that aims to demonstrate the power of Bootstrap in placing images on the site in an organized manner",
+            "link": "https://mostafa-elameer.github.io/Shopy/",
+            "images": [
+                "./assets/images/shopy/1.png",
+                "./assets/images/shopy/2.png",
+                "./assets/images/shopy/3.png"
+            ]
+        }
+    ],
+    "langimg": [
+        "./assets/images/icons/html.svg",
+        "./assets/images/icons/html5.svg",
+        "./assets/images/icons/js.svg",
+        "./assets/images/icons/angular.svg",
+        "./assets/images/icons/plus_plus.svg",
+        "./assets/images/icons/github.png"
+    ]
+}

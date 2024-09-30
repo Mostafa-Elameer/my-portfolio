@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import 'ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+
+
+
+
+:root {
+    --text-color: #fff;
+    --bg-main: #252625ee;
+    --bg-secoond: #697565;
+    --bg-therd: #ECDFCC;
+}
+
+.spicleheight {
+    height: 95vh;
+}
+
+
+
+@font-face {
+    font-family: "forabout";
+    src: url(assets/fonts/static/EduAUVICWANTGuides-Medium.ttf);
+}
+
+@font-face {
+    font-family: "all";
+    src: url(assets/fonts/Playwrite_DE_Grund/static/PlaywriteDEGrund-Regular.ttf);
+}
+
+.bg-home {
+    background-color: #ECDFCC;
+}
+
+.btn {
+    @apply bg-[var(--bg-secoond)] border rounded-3xl py-2 px-7 text-[var(--text-color)];
+}
+
+body {
+    background-color: #e9e6e2b3;
+    font-family: "all";
+    height: 100vh;
+
+}
+
+.img-icon {
+    border-radius: 15%;
+    width: 25px;
+    height: 25px;
+}
+
+
+
+
+.Special-heading {
+    text-align: center;
+    justify-content: center;
+    font-weight: 800;
+    letter-spacing: 5px;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.955);
+}
+
+.Special-heading+p {
+    margin: -25px 0 0;
+    font-size: 30px;
+    text-align: center;
+    color: #697565;
+}
+
+
+.langimg {
+    transition: all .4s;
+}
+
+:hover.langimg {
+
+    transform: scale(1.1);
+}
+
+.cardskills {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.cardskills::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-therd);
+    left: 0;
+    bottom: 100%;
+    transition: all 0.5s;
+    z-index: -1;
+
+}
+
+.cardskills:hover::after {
+    bottom: 0;
+
+}
+
+.cardskills:hover {
+    color: black;
+}

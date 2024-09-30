@@ -1,0 +1,20 @@
+<div class="flex justify-center items-center py-5 ">
+
+    <div class="w-10/12 mx-auto ">
+
+        <owl-carousel-o [options]="customOptions">
+
+            @for (item of _Data; track $index) {
+            <ng-template carouselSlide>
+                <img class="rounded-lg px-1 langimg " [src]="item" alt="certificates">
+            </ng-template>
+
+            }
+
+        </owl-carousel-o>
+
+
+
+    </div>
+
+</div>
