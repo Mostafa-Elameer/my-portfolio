@@ -8,7 +8,11 @@
         "./assets/images/certificates/6.png"
     ],
     "allProjects": [
+<<<<<<< HEAD
         {
+=======
+          {
+>>>>>>> 43a92e73792242ec84de8e7cf03163723a03a5f9
             "name": "instagram",
             "descripe": "A site that simulates the Instagram application. The user can create an account, add and remove a post, comment on the post, edit and delete it.",
             "link": "https://instagram-smoky-pi.vercel.app/login",
@@ -18,7 +22,12 @@
                 "./assets/images/insta/3.png"
             ]
         },
+<<<<<<< HEAD
         {
+=======
+
+      {
+>>>>>>> 43a92e73792242ec84de8e7cf03163723a03a5f9
             "name": "E-Commerce",
             "descripe": "a dynamic E-Commerce platform built with Angular, designed for seamless, responsive experiences on any device.",
             "link": "https://e-commerce-2dql.vercel.app/login",
