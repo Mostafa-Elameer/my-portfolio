@@ -11,7 +11,7 @@
 :root {
     --text-color: #fff;
     --bg-main: #252625ee;
-    --bg-secoond: #697565;
+    --bg-secoond: #4c674def;
     --bg-therd: #ECDFCC;
 }
 
@@ -61,6 +61,7 @@ body {
     font-weight: 800;
     letter-spacing: 5px;
     margin: 0;
+    text-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.5);
     color: rgba(255, 255, 255, 0.955);
 }
 
